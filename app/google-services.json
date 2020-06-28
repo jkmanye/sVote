@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "394407981186",
+    "firebase_url": "https://svote-234d1.firebaseio.com",
+    "project_id": "svote-234d1",
+    "storage_bucket": "svote-234d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394407981186:android:5cca1f001819fe4449449b",
+        "android_client_info": {
+          "package_name": "com.schoolvote.schoolvote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394407981186-a6giueakss0do9u72ipq69r3cihudpdr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJlAt7StgZdIISZWcoo7ZfKYhkOo-MnvY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394407981186-a6giueakss0do9u72ipq69r3cihudpdr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

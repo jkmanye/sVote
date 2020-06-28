@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">sVote</string>
+
+    <string name="id">아이디</string>
+    <string name="pw">비밀번호</string>
+    <string name="school">학교</string>
+    <string name="grade">학년</string>
+    <string name="classroom">반</string>
+    <string name="schoolnum">번호</string>
+    <string name="mail">이메일</string>
+    <string name="register">회원가입</string>
+    <string name="login">로그인</string>
+    <string name="emh">example@svote-234d1.appspot.com</string>
+    <string name="gh">4</string>
+    <string name="clh">7</string>
+    <string name="nuh">9</string>
+    <string name="lv">투표 진행 중...</string>
+    <string name="lvst">현재 sVote 앱을 이용해 투표를 진행 중입니다.</string>
+    <string name="jv">투표 참여</string>
+    <string name="goback">돌아가기</string>
+    <string name="acc">나의 정보</string>
+    <string name="vs">투표 일정</string>
+    <string name="ci">정보 수정</string>
+    <string name="title">제목</string>
+    <string name="subtitle">상세 설명</string>
+    <string name="expires">만료</string>
+    <string name="lists">항목</string>
+    <string name="dayslater"> 일 후</string>
+    <string name="push">등록</string>
+    <string name="makevote">투표 만들기</string>
+    <string name="managevote">투표 관리</string>
+    <string name="forsomeone">대상</string>
+    <string name="schedule">투표 일정</string>
+    <string name="delete">투표 삭제</string>
+    <string name="total">집계</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.schoolvote.schoolvote">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/svotelogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/svotelogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".VoteManageActivity"></activity>
+        <activity android:name=".VoteScheduleActivity" />
+        <activity android:name=".VoteGeneratingActivity" />
+        <activity android:name=".AccountInfoActivity" />
+        <activity android:name=".VotePreviewActivity" />
+        <activity android:name=".MainMenuActivity" />
+        <activity android:name=".VoteAlertDialogActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBoard"
+    tools:context=".MainMenuActivity">
+
+    <Button
+        android:id="@+id/acc_mm"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginBottom="32dp"
+        android:background="@color/colorLightGray"
+        android:onClick="ai"
+        android:text="@string/acc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/vs_mm"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="32dp"
+        android:background="@color/colorLightGray"
+        android:onClick="vs"
+        android:text="@string/vs"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/gv_mm"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="32dp"
+        android:background="@color/colorLightGray"
+        android:onClick="vg"
+        android:text="@string/makevote"
+        app:layout_constraintBottom_toTopOf="@id/vs_mm"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/vman_mm"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginBottom="32dp"
+        android:background="@color/colorLightGray"
+        android:onClick="vm"
+        android:text="@string/managevote"
+        app:layout_constraintBottom_toTopOf="@id/acc_mm"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

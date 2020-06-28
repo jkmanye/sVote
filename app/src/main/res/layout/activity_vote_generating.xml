@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VoteGeneratingActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="96dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/title"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="96dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/subtitle"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="96dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/lists"/>
+
+    <EditText
+        android:id="@+id/title_vg"
+        android:layout_width="96dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <EditText
+        android:id="@+id/subtitle_vg"
+        android:layout_width="240dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintTop_toBottomOf="@id/title_vg"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/pushbtn_vg"
+        android:layout_width="64dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintTop_toBottomOf="@id/subtitle_vg"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/push"
+        android:textSize="11dp"
+        android:onClick="addlist"/>
+
+    <EditText
+        android:id="@+id/push_vg"
+        android:layout_width="96dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintTop_toBottomOf="@id/subtitle_vg"
+        app:layout_constraintRight_toLeftOf="@id/pushbtn_vg"
+        app:layout_constraintEnd_toStartOf="@id/pushbtn_vg"/>
+
+
+    <Button
+        android:id="@+id/button_vg"
+        android:layout_width="64dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginEnd="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/push"
+        android:textSize="11dp"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/goback_vg"
+        android:layout_width="64dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginStart="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/goback"
+        android:textSize="10dp"
+        android:onClick="menu" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="64dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintTop_toBottomOf="@id/pushbtn_vg"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/classroom"/>
+    
+    <EditText
+        android:id="@+id/clroom_vg"
+        android:layout_width="32dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintTop_toBottomOf="@id/pushbtn_vg"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="64dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintTop_toBottomOf="@id/pushbtn_vg"
+        app:layout_constraintRight_toRightOf="@id/grade_vg"
+        app:layout_constraintEnd_toEndOf="@id/grade_vg"
+        android:text="@string/grade"/>
+
+    <EditText
+        android:id="@+id/grade_vg"
+        android:layout_width="32dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintTop_toBottomOf="@id/pushbtn_vg"
+        app:layout_constraintRight_toLeftOf="@id/textView4"
+        app:layout_constraintEnd_toStartOf="@id/textView4"/>
+    
+    <TextView
+        android:layout_width="96dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        app:layout_constraintTop_toBottomOf="@id/textView3"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/forsomeone" />
+    
+</androidx.constraintlayout.widget.ConstraintLayout>
